@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Software Development Studio (SDS) Website</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="author" content="Sylwia Kopczyńska">
+	<meta name="author" content="Mirosław Ochodek">
+	<meta name="description" content="development">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="resources/style2.css" type="text/css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand"  href="./index.html" style="position:relative;bottom:3px"><img style="display: inline;" src="images/logo.png" alt="Poznan University of Technology logo" width="30px"/> <span>SDS</span> </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="./index.html">Home</a></li>
+        <li ><a href="about.html">About</a></li>
+        <li class="dropdown" >
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li ><a href="projects2012.html">Projects 2011/2012</a></li>
+            <li ><a href="projects2013.html">Projects 2012/2013</a></li>     
+            <li class="active"><a href="projects2014.html">Projects 2013/2014</a></li>
+            <li><a href="projects2015.html">Projects 2014/2015</a></li>
+			      <li><a href="projects2016.html">Projects 2015/2016</a></li>
+			      <li><a href="projects2017.html">Projects 2016/2017</a></li>
+			      <li><a href="projects2018.html">Projects 2017/2018</a></li>
+            <li><a href="projects2019.html">Projects 2018/2019</a></li>
+            <li><a href="projects2020.html">Projects 2019/2020</a></li>
+            <li><a href="projects2021.html">Projects 2020/2021</a></li>
+<li><a href="projects2022.html">Projects 2021/2022</a></li>
+          </ul>
+        </li>
+      </ul>
+    <ul class="nav navbar-nav navbar-right">
+        <li><a href="call.html"><span class="glyphicon glyphicon-bullhorn"></span> Call For New Projects!</a></li>
+
+    </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+<div class="container">
+  <div class="jumbotron title-bg" style="margin-top:20px;">
+    <h2>Software Development Studio </h2> 
+    <p class="small">Learn software engineering pracitices while taking part in a software project!</p> 
+  </div>
+
+
+
+<h3>Projects being developed in 2013/2014</h3>
+
+<div class="project"> 
+<p class="project-title">DiploMan</p>
+<b>Diploma projects Management</b> <br/>
+
+<b>Problem:</b> Currently at the Poznan University of Technology the process of collecting proposals for bachelor and master thesis projects is not supported by any software system. Firstly, all the proposals from thesis mentors are collected and gathered into a Word file. Then, the proposals are announced to students who are to select one of the proposal and be accepted by its mentor within the given time frame. 
+However, the Faculty Board members cannot monitor and accept the thesis projects proposals (e.g., detect duplicates). The problem is also in selecting students and monitoring the assignment to projects. The whole process is not systematic. Many people can apply for many projects, and without monitoring mentors can accept a person which has been already assigned to another project. 
+
+<br/>
+<b>Solution:</b> The solution is to make the process systematic, i.e.: to develop a software system which supports all the steps of the process:
+1)	Mentors can propose some thesis projects (Master and Bachelor);
+2)	The proposals can be accepted or declined by some University authorities;
+3)	Students can apply for projects;
+4)	Mentors and students can monitor the status of application / assignment of students to all projects;
+5)	Mentors can define some ‘recruitment’ criteria to students;
+6)	University authorities see the status of project proposals (e.g., do we have enough accepted proposals?) and the status of project application process (e.g. how many students are/ aren’t assigned to a projects?), they can also arbitrary assign students to projects;
+7)	The documents confirming the acceptance to a selected projects are generated.
+
+</div>
+
+
+<div class="project"> 
+<p class="project-title">eLog</p>
+<b>electronic Log for Servers</b> <br/>
+
+<b>Problem:</b> At Poznan University of Technology logs of software applications are stored in multiple files on servers they are deployed.  It makes accessing (the administrator must log in to each server, look for files, open them) and analyzing their contents difficult. The files are huge and finding the proper part of a log file takes much time. It is even harder if there are multiple software systems which depends on each other. Additionally, each failure of a software system is detected by a user who needs to contact with the system support.
+
+<br/>
+<b>Solution:</b> The solution is to create a central repository of logs for all deployed at Poznan University of Technology systems which gathers the contents of logs, makes them available through www and helps to analyze them. The system should also automatically detect failures. 
+
+</div>
+
+<div class="project"> 
+<p class="project-title">LinkedInGrads</p>
+<b>Monitoring Graduates using LinkedIn</b> <br/>
+
+<b>Problem:</b> The regulations of the Ministry of Science and Higher Education require from every University monitoring the careers of graduates. Commonly Universities fulfill this requirements carrying on surveys questioning graduates by electronic or in-print questionnaires or in telephone conversations. However, the response rate is very low (ca. up to 10%).
+
+<br/>
+<b>Solution:</b> The solution is to use LinkedIn one of the world's largest professional network with 200 million members in 200 countries and territories around the globe to support the process of monitoring the careers of the Poznan University of Technology graduates. The system should collect data and present the data in the predefined form. 
+The solution could interoperate with the Poznan University of Technology Gradates Portal which is being transited and which aims at creating the PUT’s graduates network.
+
+
+</div>
+
+<div class="project"> 
+<p class="project-title">Scholar+:</p>
+<b>Enhancing Google Scholar with Web-of-Science Filter </b> <br/>
+
+<b>Problem:</b> Bibliometric data, such as number of citations, Hirsch index  etc., are getting more and more popular. They are used to characterize individual researchers as well as research institutions (e.g. university faculties by the Polish Ministry of Science and Higher Education for using assessment).
+There exist multiple tools for gathering  bibliometric data and each analyze it on their own, which leads to Neglected citations, Lack of total number of citations, Lack of Hirsch index for a faculty.
+
+
+<br/>
+<b>Solution:</b> Assuming that each researcher belonging to the Faculty would have a Google Scholar profile, Scholar+ should fetch from Google Scholar all the publications for all the group members along with their citations, remove superfluous items (i.e. publications repeated because of multiple authors), and then remove pseudo-citations. Computing total number of citations or Hirsch index would be possible. 
+</div>
+
+<!-- STR: sidebar -->
+</div>
+<!-- END: sidebar -->
+
+
+<!-- END: CONTENT  -->
+
+  <div class="container">
+    
+    <p class="footer">Poznan University of Technology &copy 2022 </p>
+   
+  </div>
+
+
+
+<!-- STR: container -->
+
+</body>
+</html>

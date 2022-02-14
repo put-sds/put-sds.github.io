@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Software Development Studio (SDS) Website</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="author" content="Sylwia Kopczyńska">
+	<meta name="author" content="Mirosław Ochodek">
+	<meta name="description" content="development">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="resources/style2.css" type="text/css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand"  href="./index.html" style="position:relative;bottom:3px"><img style="display: inline;" src="images/logo.png" alt="Poznan University of Technology logo" width="30px"/> <span>SDS</span> </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="./index.html">Home</a></li>
+        <li ><a href="about.html">About</a></li>
+        <li class="dropdown" >
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li ><a href="projects2012.html">Projects 2011/2012</a></li>
+            <li ><a href="projects2013.html">Projects 2012/2013</a></li>     
+            <li><a href="projects2014.html">Projects 2013/2014</a></li>
+            <li><a href="projects2015.html">Projects 2014/2015</a></li>
+			      <li><a href="projects2016.html">Projects 2015/2016</a></li>
+			      <li class="active"><a href="projects2017.html">Projects 2016/2017</a></li>
+			      <li><a href="projects2018.html">Projects 2017/2018</a></li>
+            <li><a href="projects2019.html">Projects 2018/2019</a></li>
+            <li><a href="projects2020.html">Projects 2019/2020</a></li>
+            <li><a href="projects2021.html">Projects 2020/2021</a></li>
+<li><a href="projects2022.html">Projects 2021/2022</a></li>
+          </ul>
+        </li>
+      </ul>
+    <ul class="nav navbar-nav navbar-right">
+        <li><a href="call.html"><span class="glyphicon glyphicon-bullhorn"></span> Call For New Projects!</a></li>
+
+    </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+<div class="container">
+  <div class="jumbotron title-bg" style="margin-top:20px;">
+    <h2>Software Development Studio </h2> 
+    <p class="small">Learn software engineering practices while taking part in a software project!</p> 
+  </div>
+
+
+
+<h3>Projects being developed in 2016/2017</h3>
+
+<div class="project"> 
+<p class="project-title">Regexp2NL [ENG]</p>
+<b>Regexp2NL: Regular expressions to natural language</b> <br/>
+<b>Context:</b> HTML5 standard provides validation of forms based on regular expressions. To use this mechanism the developer have to pass the regular expression describing validation rule of a given field (pattern attribute) and a description of the rules in a natural language which will be presented as a hint (a tittle attribute) to the user. 
+<br/>
+<b>Problem:</b>
+Preparing a readable description of a regular expression pattern is not that simple, especially when description should be provided in many languages. There already exist some services which enable generating such a descriptions (eg. regex101.com). However, received text is too technical and too sophisticated for an average user. Additionally, those tools do not support translations in many languages.
+<br/>
+<b>Solution:</b> The solution was to create a tool which enables generating automatic explanations of regular expressions. The tool takes as an input three parameters: a string of characters which represents a regular expression, a language symbol according to ISO 639 standard and a programming language of given regular expression. It returns a narrative text in a natural language which explains the regular expression. The developed system has a form of RESTful API and on-line IDE that allows linguists and researcher to improve its engine.
+</div>
+
+<div class="project"> 
+<p class="project-title">JIRA Goggles [PL]</p>
+<b>JIRA Goggles</b> <br/>
+<b>Context:</b>  Atlassian JIRA is one of the most frequently used task-management software in IT projects.
+<br/>
+<b>Problem:</b>
+Unfortunately, JIRA does not offer functionality to manage requirements and product vision and higher level than a single project.
+<br/>
+<b>Solution:</b> 
+JIRA Goggles is the add-on for Atlassian JIRA that allows people in an organization to share the same perspective on why and how business vision is turned into working products. Add-on web page: https://jiragoggles.com
+</div>
+
+<div class="project"> 
+<p class="project-title">Scholar++ [ENG]</p>
+<b>Scholar++</b> <br/>
+<b>Context:</b>It is common to use bibliometrics indexes such as citation number or Hirsch index to compare the quality of scientific researchers delivered by various kind of Universities or Institutes. Indexes are also useful for comparing the quality of work of employees inside University, Institute or Team.
+<br/>
+<b>Problem:</b> Unfortunately, there are a lot of tools which provide a list of publications, also with counted citation number, but all of these tools returns the result only for a particular author and cannot provide and compare data for whole University or Institute. Also, already existing tools have often duplicated articles on the list, because they cannot recognize duplicate if two titles have different format, but the same meaning (for example in TR cited reference search article “Modern Enterprise Management” and “Modern Ent. Management” will be considered as a different position, but in fact it is the same).
+<br/>
+<b>Solution:</b> Scholar++ was developed to provide clear, high-quality reports for a particular employee or whole Team, Institute, University of “cited reference search” form TR database.
+</div>
+
+
+<!-- STR: sidebar -->
+</div>
+<!-- END: sidebar -->
+
+
+<!-- END: CONTENT  -->
+
+  <div class="container">
+    
+    <p class="footer">Poznan University of Technology &copy 2022 </p>
+   
+  </div>
+
+
+
+<!-- STR: container -->
+
+</body>
+</html>
