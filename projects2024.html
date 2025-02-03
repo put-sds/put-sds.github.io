@@ -127,26 +127,3 @@
 
 </body>
 </html>
-
-
-/**
-	Assigns teachers to courses.
-*/
-public class TeacherCourseAssigner extends Teacher{
-  
-  public List<Teacher> teachers = new ArrayList<Teacher>();
-  public Course course = new Course();
-  
-    public assign_best_teacher(course){
-      for (int i =0; i< teachers.len();i++){
-          if (teachers[i].can_conduct(course)){
-              if((teachers[i].available_hours > teachers[i+1].available_hours) && teachers.student_grade >teachers[i+1].available_hours){
-                TeacherCourseAssigner(teachers[i]);
-              }
-          }
-      }
-    }
-
-   // ...
-
-}
